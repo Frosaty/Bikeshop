@@ -35,6 +35,11 @@ header {
     src: url("/fonts/Ubuntu-Light.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: Ubuntu-LightItalic;
+    src: url("/fonts/Ubuntu-LightItalic.ttf") format("truetype");
+}
+
 a.navbar-brand {
     font-size: 51.31px;
     font-family: "Milkshake", sans-serif;
@@ -126,10 +131,13 @@ i.fas.fa-shopping-basket {
     padding-top: 2rem;
 }
 
+
+/*========================================= Our Story==================================== */
+
 .story-heading {
     font-family: OldStandardTT-Regular, sans-serif;
-    padding-top: 7rem;
-    padding-bottom: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
 }
 
 .story-title {
@@ -159,11 +167,11 @@ a {
     overflow: hidden;
     color: #3c3c3c;
     border: 2px solid #3c3c3c;
-    transition: color .5s;
+    transition: color 0.5s;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    margin: 5rem 0;
+    margin: 1rem 0;
     font-family: Helvetica;
 }
 
@@ -184,10 +192,38 @@ a {
 .round .button:nth-child(1):before {
     top: 100%;
     left: 100%;
-    transition: all .7s;
+    transition: all 0.7s;
 }
 
 .round .button:nth-child(1):hover:before {
     top: -30px;
     left: -30px;
+}
+
+.figure-story {
+    padding-left: 3rem;
+    font-family: Ubuntu-LightItalic, sans-serif;
+    color: #6a6a6a;
+    font-weight: lighter;
+    font-size: 18px;
+    padding-right: 17rem;
+    overflow: hidden;
+    line-height: 2rem;
+}
+
+.bg-story {
+    width: 84%;
+}
+
+.part-two-story {
+    overflow: hidden;
+}
+
+
+/*========================================= Feature==================================== */
+
+.heading-feature {
+    padding-left: 25rem;
+    padding-right: 24rem;
+    text-align: center;
 }
