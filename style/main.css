@@ -227,3 +227,22 @@ a {
     padding-right: 24rem;
     text-align: center;
 }
+
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px;
+        max-width: 1580px !important;
+    }
+}
+
+#images {
+    padding-top: 12rem;
+}
+
+ul#images {
+    list-style-type: none;
+}
