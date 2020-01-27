@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/viewer/viewer.css">
 
 </head>
 
@@ -105,7 +106,31 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
                 </p>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="viewer-toolbar">
+                        <ul>
+                            <li role="button" class="viewer-zoom-in" data-viewer-action="zoom-in"><i class="fas fa-undo"></i></li>
+                            <li role="button" class="viewer-zoom-out" data-viewer-action="zoom-out"></li>
+                            <li role="button" class="viewer-reset" data-viewer-action="reset"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img id="image" src="images/Features/bg-feature.jpg" alt="Picture">
+                </div>
+
+                <div class="col-6 text-right">
+                    <ul id="images">
+                        <li><img src="images/Features/sm-feature-1.png" alt="Picture 1"></li>
+                        <li><img src="images/Features/sm-feature-2.png" alt="Picture 2"></li>
+                        <li><img src="images/Features/sm-feature-3.png" alt="Picture 3"></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
+
 
 
     </div>
@@ -121,6 +146,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.js"></script>
+    <script src="vendor/viewer/jquery-viewer.js"></script>
+    <script src="vendor/viewer/viewer.js"></script>
     <script src="js/main.js"></script>
 
 </body>
