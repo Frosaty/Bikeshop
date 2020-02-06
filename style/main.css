@@ -50,7 +50,13 @@ a.navbar-brand {
     color: #ffffff;
 }
 
-.nav-bar {}
+.navbar-brand {
+    margin-left: 2rem !important;
+}
+
+.nav-link {
+    font-size: 18px;
+}
 
 .nav-bar ul {
     list-style-type: none;
@@ -108,14 +114,15 @@ i.fas.fa-shopping-basket {
 }
 
 .home {
-    width: 1226px;
+    /* width: 1226px; */
 }
 
 .main-title p {
     font-family: OldStandardTT-Regular, sans-serif;
     font-size: 72px;
     color: #ffffff;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
+    padding: 7rem 18rem 0rem 18rem;
     text-align: center;
 }
 
@@ -245,4 +252,212 @@ a {
 
 ul#images {
     list-style-type: none;
+    overflow: hidden;
 }
+
+.parentimage {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.parentimage:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/* ==========================================Component======================================== */
+
+.heading-components {
+    padding-left: 25rem;
+    padding-right: 24rem;
+    text-align: center;
+}
+
+.double-border {
+    display: block;
+    clear: both;
+    background: #3c3c3c;
+    border: 1px solid white;
+    outline: 5px solid #3c3c3c;
+    transition: 0.7s all ease-in;
+    /* height: 50px; */
+    width: 10rem;
+    text-align: center;
+}
+
+.product-title {
+    font-family: OldStandardTT-Regular sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.product-price {
+    font-family: Ubuntu-Regular sans-serif;
+    font-style: oblique;
+    font-size: 22px;
+    color: #6a6a6a;
+}
+
+.footer {
+    background-image: url(/images/BG/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+.inside-footer {
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 45%;
+    background-color: white;
+    position: relative;
+}
+
+.heading-footer {
+    position: absolute;
+    font-family: OldStandardTT-Regular, sans-serif;
+    font-size: 60px;
+    color: #3c3c3c;
+    /* padding-top: 7rem; */
+    /* padding: 7rem 18rem 0rem 18rem; */
+    text-align: center;
+}
+
+.title-footer {
+    text-align: center;
+    padding: 1em 3.5em 0 3.5em;
+}
+
+.describe-footer {
+    font-family: Ubuntu-Regular sans-serif;
+    font-style: oblique;
+    font-size: 22px;
+    color: #6a6a6a;
+    margin: 0 3em;
+}
+
+
+/* subcribe bar */
+
+.ortala {
+    box-sizing: border-box;
+    font-family: Ubuntu-Regular sans-serif;
+    position: absolute;
+}
+
+input {
+    border: none;
+    background: #e8e8e8;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    left: 0px;
+    transition: .5s all;
+    float: left;
+}
+
+input:focus,
+button:focus {
+    outline: 0;
+}
+
+button:active {
+    background: #3c3c3c;
+}
+
+button {
+    content: "sa";
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background: #3c3c3c;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    z-index: 2;
+    transition: .5s all, .3s;
+    left: 0;
+    float: left;
+    border: none;
+}
+
+.ortala {
+    width: 400px;
+    margin: 25vh 46vh 0;
+}
+
+.ortala:hover button {
+    left: 300px;
+    cursor: pointer;
+    content: "sa";
+}
+
+.ortala:hover input {
+    left: -100px;
+}
+
+.sa:before {
+    content: "Subscribe";
+    transition: .7s all;
+    opacity: 1;
+    position: absolute;
+    z-index: 0;
+    left: 20px;
+    top: 0px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.sa:after {
+    content: 'Yeah!';
+    transition: .7s all;
+    opacity: 0;
+    position: absolute;
+    z-index: 0;
+    left: 35px;
+    top: 0px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.ortala:hover .sa:before {
+    opacity: 0;
+}
+
+.ortala:hover .sa:after {
+    opacity: 1;
+}
+
+
+/* .liner {
+    top: 80%;
+    border: tomato solid 1px;
+} */
+
+p.cp-text {
+    /* border-top: 5px solid red; */
+    padding: 16em 5em 0 14em;
+    color: #ffffff;
+}
+
+.cp-text a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: OldStandardTT-Regular, sans-serif;
+    font-family: Milkshake;
+}
+
+
+/* .text {
+    padding: 16em 5em 5em 14em;
+} */

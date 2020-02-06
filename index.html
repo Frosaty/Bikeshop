@@ -49,7 +49,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
                 </div>
                 <div class="play-button">
-                    <!-- <img src="images/header/play-button.png" alt="Play Sound"> -->
+                    <img src="images/header/play-button.png" alt="Play Sound">
                     <!-- <input onclick="playMusic()"> -->
                 </div>
             </div>
@@ -109,48 +109,134 @@
             <div class="container">
                 <div class="row">
                     <div class="col-1 viewer-toolbar">
-                        <ul>
+                        <!-- <ul>
                             <li role="button" class="viewer-zoom-in" data-viewer-action="zoom-in"><i class="fas fa-undo"></i></li>
                             <li role="button" class="viewer-zoom-out" data-viewer-action="zoom-out"></li>
                             <li role="button" class="viewer-reset" data-viewer-action="reset"></li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <div class="col-9">
-                        <img id="image" src="images/Features/bg-feature.jpg" alt="Picture" style="width: 95%;">
+                        <!-- a block container is required -->
+                        <div>
+                            <img id="image" src="images/Features/bg-feature.jpg" alt="Picture" style="width: 95%;">
+                        </div>
+                        <!-- <img id="image" src="images/Features/bg-feature.jpg" alt="Picture" style="width: 95%;"> -->
                     </div>
 
-                    <div class="col-2 text-right">
+                    <div class="col-2 text-left">
                         <ul id="images">
-                            <li class="mt-2"><img src="images/Features/sm-feature-1.png" alt="Picture 1"></li class="mt-2">
-                            <li class="mt-2"><img src="images/Features/sm-feature-2.png" alt="Picture 2"></li>
-                            <li class="mt-2"><img src="images/Features/sm-feature-3.png" alt="Picture 3"></li>
+                            <li class="mt-2"><img class="parentimage" src="images/Features/sm-feature-1.png" alt="Picture 1"></li class="mt-2">
+                            <li class="mt-2"><img class="parentimage" src="images/Features/sm-feature-2.png" alt="Picture 2"></li>
+                            <li class="mt-2"><img class="parentimage" src="images/Features/sm-feature-3.png" alt="Picture 3"></li>
                         </ul>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="components">
+            <div class="heading-components">
+                <h1 class="story-heading">
+                    Lorem ipsum dolor sit amet consectetur!
+                </h1>
+                <p class="story-title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+                </p>
+            </div>
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-3 col-md-3 col-sm-4 text-center products">
+                        <img src="images/Components/1.png" alt="">
+                        <p class="product-title">
+                            Lorem ipsum dolor sit
+                        </p>
+                        <p class="product-price">
+                            $135
+                        </p>
+                        <div class="round">
+                            <a class="button" href="#">buy now</a>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-3 col-sm-4 text-center products">
+                        <img src="images/Components/2.png" alt="">
+                        <p class="product-title">
+                            Lorem ipsum dolor sit
+                        </p>
+                        <p class="product-price">
+                            $135
+                        </p>
+                        <div class="round">
+                            <a class="button" href="#">buy now</a>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-3 col-sm-4 text-center products">
+                        <img src="images/Components/3.png" alt="">
+                        <p class="product-title">
+                            Lorem ipsum dolor sit
+                        </p>
+                        <p class="product-price">
+                            $135
+                        </p>
+                        <div class="round">
+                            <a class="button" href="#">buy now</a>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-3 col-sm-4 text-center products">
+                        <img src="images/Components/4.png" alt="">
+                        <p class="product-title">
+                            Lorem ipsum dolor sit
+                        </p>
+                        <p class="product-price">
+                            $135
+                        </p>
+                        <div class="round">
+                            <a class="button" href="#">buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="footer">
+                <div class="top-footer"></div>
+                <div class="inside-footer">
+                    <div class="inside-sub">
+                        <div class="heading-footer">
+                            <h1 class="title-footer">
+                                Subscribe our newsletter
+                            </h1>
+                            <p class="describe-footer">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exercitation.
+                            </p>
+
+                        </div>
+                        <div class="ortala"><button class="sa"></button><input placeholder="Your email address..."></input>
+                        </div>
+                    </div>
+                </div>
+                <div class="outside-footer">
+                    <div class="liner">
+                    </div>
+                    <div class="copyright">
+                        <p class="cp-text">
+                            © Copyright 2015
+                            <a href="http://facebook.com/time.ism">Nguyen Duy</a>. All rights reserved.
+                        </p>
+                        <!-- <p class="text">
+                            Designed by Symu.co
+                        </p> -->
+                    </div>
+                </div>
             </div>
         </div>
 
-
-
-
-    </div>
-
-    <!-- <div id="nav-icon1">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div> -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/8aa30f2773.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="vendor/jquery.js"></script>
-    <script src="vendor/viewer/jquery-viewer.js"></script>
-    <script src="vendor/viewer/viewer.js"></script>
-    <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/8aa30f2773.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="vendor/jquery.js"></script>
+        <script src="vendor/viewer/jquery-viewer.js"></script>
+        <script src="vendor/viewer/viewer.js"></script>
+        <script src="js/main.js"></script>
 
 </body>
 
